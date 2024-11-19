@@ -6,11 +6,11 @@
 		<UseWPF>true</UseWPF>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>AndroThink.Barcode.WPF</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.4</Version>
 		<Authors>Eslam Mohamed</Authors>
 		<Company>AndroThink</Company>
 		<PackageTags>Barcode;WPF;Barckdcode-reader-</PackageTags>
-		<Description>This package will help in dealing with the batcrcode readers in your wpf application</Description>
+		<Description>This package will help in dealing with the barcode readers in your wpf application</Description>
 		<PackageProjectUrl>https://github.com/AndroThink/WPFBarCode</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/AndroThink/WPFBarCode</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>

@@ -1,5 +1,5 @@
 ## WPFBarCode [![Nuget](https://img.shields.io/nuget/v/AndroThink.Identity.PermissionsAuther)](https://www.nuget.org/packages/AndroThink.Identity.PermissionsAuther)
-Help in dealing with the batcrcode readers in your wpf application
+Help in dealing with the barcode readers in your wpf application
 
 ![](https://raw.githubusercontent.com/AndroThink/PermissionsAuther/main/AndroThink.Identity.PermissionsAuther/Images/andro_think.png)
 
