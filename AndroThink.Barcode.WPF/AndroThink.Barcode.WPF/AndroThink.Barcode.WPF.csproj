@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net8.0-windows</TargetFramework>
+		<TargetFrameworks>net6.0-windows;net8.0-windows</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<UseWPF>true</UseWPF>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -9,7 +9,7 @@
 		<Version>1.0.2</Version>
 		<Authors>Eslam Mohamed</Authors>
 		<Company>AndroThink</Company>
-		<PackageTags>Barcode,WPF,Barckdcode reader-</PackageTags>
+		<PackageTags>Barcode;WPF;Barckdcode-reader-</PackageTags>
 		<Description>This package will help in dealing with the batcrcode readers in your wpf application</Description>
 		<PackageProjectUrl>https://github.com/AndroThink/WPFBarCode</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/AndroThink/WPFBarCode</RepositoryUrl>
