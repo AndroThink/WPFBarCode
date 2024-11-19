@@ -1,7 +1,7 @@
-## WPFBarCode [![Nuget](https://img.shields.io/nuget/v/AndroThink.Identity.PermissionsAuther)](https://www.nuget.org/packages/AndroThink.Identity.PermissionsAuther)
+## WPFBarCode [![Nuget](https://img.shields.io/nuget/v/AndroThink.Barcode.WPF)](https://www.nuget.org/packages/AndroThink.Barcode.WPF)
 Help in dealing with the barcode readers in your wpf application
 
-![](https://raw.githubusercontent.com/AndroThink/PermissionsAuther/main/AndroThink.Identity.PermissionsAuther/Images/andro_think.png)
+![](https://raw.githubusercontent.com/AndroThink/PermissionsAuther/main/AndroThink.Barcode.WPF/Images/andro_think.png)
 
 ## How to use 
 
