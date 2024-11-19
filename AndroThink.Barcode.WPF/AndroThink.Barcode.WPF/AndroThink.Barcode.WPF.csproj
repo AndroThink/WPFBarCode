@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>AndroThink.Barcode.WPF</PackageId>
+		<Version>1.0.2</Version>
+		<Authors>Eslam Mohamed</Authors>
+		<Company>AndroThink</Company>
+		<PackageTags>Barcode,WPF,Barckdcode reader-</PackageTags>
+		<Description>This package will help in dealing with the batcrcode readers in your wpf application</Description>
+		<PackageProjectUrl>https://github.com/AndroThink/WPFBarCode</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/AndroThink/WPFBarCode</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageIcon>andro_think.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+		<None Include="images\andro_think.png" Pack="true" PackagePath="\" />
+		<None Include="LICENSE.txt" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Images\" />
+	</ItemGroup>
+</Project>
