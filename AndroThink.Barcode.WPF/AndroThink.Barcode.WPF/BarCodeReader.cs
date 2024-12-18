@@ -115,7 +115,7 @@ public class BarCodeReader
         }
     }
 
-    public void DetextPrefix(BarCodeReaderPrefixDetectEvent barCodeReaderPrefixDetectEvent = null)
+    public void DetectPrefix(BarCodeReaderPrefixDetectEvent barCodeReaderPrefixDetectEvent = null)
     {
         _prefix = null;
         _detectPrefix = true;
@@ -175,7 +175,7 @@ public class BarCodeReader
 
     private void PreviewKeyUpEventBarcodeScanner(object sender, System.Windows.Input.KeyEventArgs e)
     {
-        if (e.Key == _suffix)
+        if (e.Key == _suffix && _code.Count > 1)
         {
             if (_detectPrefix)
             {
